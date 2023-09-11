@@ -1,4 +1,4 @@
-# Getting started with Quarkus
+# Getting started with Quarkus Demo
 
 This is a minimal CRUD service exposing a couple of endpoints over REST.
 
