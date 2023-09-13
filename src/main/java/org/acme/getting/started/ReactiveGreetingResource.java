@@ -43,6 +43,6 @@ public class ReactiveGreetingResource {
     @Produces(MediaType.TEXT_PLAIN)
     @NonBlocking
     public String hello() {
-        return "hello";
+        return "greeting";
     }
 }
