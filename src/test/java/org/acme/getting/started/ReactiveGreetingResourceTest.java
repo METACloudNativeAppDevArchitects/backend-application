@@ -19,7 +19,7 @@ public class ReactiveGreetingResourceTest {
                 .when().get("/hello")
                 .then()
                 .statusCode(200)
-                .body(is("Greetings"));
+                .body(is("Hello"));
     }
 
     @Test
