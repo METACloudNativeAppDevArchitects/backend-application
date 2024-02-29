@@ -19,7 +19,7 @@ public class ReactiveGreetingResourceTest {
                 .when().get("/hello")
                 .then()
                 .statusCode(200)
-                .body(is("Hello"));
+                .body(is("Greetings"));
     }
 
     @Test
@@ -30,7 +30,7 @@ public class ReactiveGreetingResourceTest {
                 .when().get("/hello/greeting/{name}")
                 .then()
                 .statusCode(200)
-                .body(is("Hello " + uuid));
+                .body(is("Greetings " + uuid));
     }
 
     @Test
@@ -43,8 +43,8 @@ public class ReactiveGreetingResourceTest {
                 .then()
                 .assertThat()
                 .statusCode(200)
-                .body(containsString("Hello " + uuid + " - 0"))
-                .body(containsString("Hello " + uuid + " - 1"));
+                .body(containsString("Greetings " + uuid + " - 0"))
+                .body(containsString("Greetings " + uuid + " - 1"));
     }
 
 }
