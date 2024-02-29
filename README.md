@@ -78,4 +78,3 @@ After getting a cup of coffee, you'll be able to run this executable directly:
 
 > ./target/getting-started-1.0.0-SNAPSHOT-runner
 # backend-application
-# backend-application
