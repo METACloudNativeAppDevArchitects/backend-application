@@ -9,7 +9,7 @@ Under the hood, this demo uses:
 
 ## Requirements
 
-To compile and run this demo you will need:
+To compile and run this demo you will need: 
 
 - JDK 11+
 - GraalVM
